@@ -4,9 +4,11 @@ body {
 }
 h4 {
   margin: 10px;
+  font-size: 30px;
+  color: white;
 }
 input {
-  width: 30px;
+  width: 100px;
   margin-right: 5px;
 }
 

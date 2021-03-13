@@ -2,11 +2,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bubble Sorting</title>
+    <title>Select Sorting</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
@@ -14,9 +20,12 @@
   <body>
     <div class="container-fluid text-center">
       <h4>
-        Original: <input id="amount" type="text" value="6" /><button id="draw">
+        Original: <input id="amount" type="text" value="6" /><button
+          class="btn btn-dark"
+          id="draw"
+        >
           draw</button
-        ><button id="sort">Sort</button>
+        ><button id="sort" class="btn btn-dark m-2">Sort</button>
       </h4>
       <div class="deck unsorted"></div>
       <h4>Select Sort Log:</h4>
